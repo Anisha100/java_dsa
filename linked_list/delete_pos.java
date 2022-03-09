@@ -14,7 +14,7 @@ class Ll
   }
 
  void add(String data)
- { Node Newnode=new Node(data); 
+  { Node Newnode=new Node(data); 
      if(head==null)
      {
          head=Newnode;
@@ -26,7 +26,7 @@ class Ll
       currval=currval.next;
      }
      currval.next=Newnode;
- }
+  }
      void delete(int pos)
 
     {
