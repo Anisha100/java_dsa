@@ -2,7 +2,7 @@ class Linked
 {
   Node head;
   class Node
-  {
+   {
      Node next;
      String data;
      Node(String data)
@@ -11,7 +11,7 @@ class Linked
          this.next=null;
      }
      
- }
+  }
 
  void add(String data)
  { Node Newnode=new Node(data); 
