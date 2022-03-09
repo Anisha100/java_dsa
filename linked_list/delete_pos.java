@@ -1,4 +1,4 @@
-class Linked
+class Ll
 {
   Node head;
   class Node
@@ -64,7 +64,7 @@ class Linked
     }
     public static void main(String args[])
     {
-        Linked list=new Linked();
+        Ll list=new Ll();
         list.add("This ");
         list.add("is");
         list.add("Patna");
