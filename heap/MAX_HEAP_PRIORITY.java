@@ -4,7 +4,7 @@ import java.util.*;
 class GFG {
  
     // Main driver method
-    public static void main(String args[])
+    public static void main (String args[])
     {
  
         // Creating empty priority queue
@@ -28,9 +28,6 @@ class GFG {
         Iterator itr = pQueue.iterator();
         while (itr.hasNext())
             System.out.println(itr.next());
- 
-        // Removing the top priority element (or head) and
-        // printing the modified pQueue using poll()
         pQueue.poll();
         System.out.println("After removing an element "
                            + "with poll function:");
