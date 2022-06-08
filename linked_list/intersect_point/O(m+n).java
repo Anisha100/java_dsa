@@ -17,15 +17,14 @@ class Main{
       return -1;
     while(current1.data!=current2.data)
     {
-      current1=current1.next;
-      current2=current2.next;
-      if(current1==current2)
-        return current1.data;
-    
-    if(current1==null)
-      current1=head1;
-      if(current2==null)
-        current2=head2;
+     if(Current1==null)
+                Current1=headA;
+            if(Current2==null)
+                Current2=headB;
+            if(Current1==Current2)
+                return Current1.data;
+            Current1=Current1.next;
+            Current2=Current2.next;
   }
   return current1.data;
 }
