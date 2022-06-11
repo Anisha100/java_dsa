@@ -1,7 +1,7 @@
 import java.util.*;
 public class Main
 {
-ArrayList<Integer> list=new ArrayList<>();
+/*ArrayList<Integer> list=new ArrayList<>();
 public boolean isnull()
 {
     return list.size()==0;
@@ -22,7 +22,7 @@ public int peek(){
     
     
 }
-   public static void main(String args[])
+   */public static void main(String args[])
     {
        Stack<Integer> s = new Stack<>();
         //Stack s = new Stack();
