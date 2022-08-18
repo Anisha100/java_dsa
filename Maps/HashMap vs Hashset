@@ -1,1 +1,6 @@
 
+HashSet is an implementation of Set Interface which does not allow duplicate value. The main thing is, objects that are stored in HashSet must
+override equals() for check for equality, and hashCode() methods for no duplicate value are stored in our set. HashMap is an implementation of Map
+Interface, which maps a key to value. Duplicate keys are not allowed in a Map. Basically, Map Interface has two implementation classes HashMap and 
+TreeMap the main difference is TreeMap maintains an order of the objects but HashMap will not.HashMap allows null values and null keys. Both HashSet 
+and HashMap are not synchronized.
